@@ -100,6 +100,7 @@ GOGCCFLAGS=”-fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-
 Go 1.10.3’ü başarıyla yükledik.
 
 
+
 Gerekli Toolların Kurulumu ve Kullanımı
 
 1-) Assetfiner
