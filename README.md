@@ -101,15 +101,17 @@ Go 1.10.3’ü başarıyla yükledik.
 
 
 
-Gerekli Toolların Kurulumu ve Kullanımı
++ Gerekli Toolların Kurulumu ve Kullanımı
 
 1-) Assetfiner
+
 2-) Subzy
+
 3-) Subjack
 
-ASSETFINDER
++ ASSETFINDER
 
-+ Hedef domainin subdomainlerini çekmemize ve liste halinde txt'ye kaydetmemize yarar.
+Hedef domainin subdomainlerini çekmemize ve liste halinde txt'ye kaydetmemize yarar.
 
 Github reposu
 
@@ -124,9 +126,9 @@ go get -u github.com/tomnomnom/assetfinder
 assetfinder hedefdomain.com (hedef domainin subdomainlerini çıkarır.)
 assetfinder hedefdomain.com | tee subdomainlist.txt (hedef domainin subdomainlerini çıkarır ve belirttiğimiz şekilde kaydeder.)
 
-SUBZY 
++ SUBZY 
 
-+ Belirttiğimiz subdomain listesinde tarama yapar zafiyetli subdomainleri bildirir.
+Belirttiğimiz subdomain listesinde tarama yapar zafiyetli subdomainleri bildirir.
 
 Github reposu 
 
@@ -142,7 +144,7 @@ go install -v github.com/lukasikic/subzy@latest
 subzy --targets subdomainlist.txt (belirttiğimiz listedeki subdomainleri tarar)
 subzy --targets subdomainlist.txt --hide_fails (belirttiğimiz listedeki subdomainleri tarar ve zafiyetli olmayanları ekrana vermez sadece zafiyetli olanları çıkartır.)
 
-SUBJACK
++ SUBJACK
 
 + Belirttiğimiz subdomain listesinde tarama yapar zafiyetli subdomainleri bildirir.
 
