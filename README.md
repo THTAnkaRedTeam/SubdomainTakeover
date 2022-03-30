@@ -131,6 +131,10 @@ Kurulum
 
 go get github.com/haccer/subjack
 
-Kullanım
+Örnek Kullanım
 
 subjack -w subdomainlist.txt -v -ssl (belirttiğimiz subdomain listesinde daha doğru, ayrıntılı bir şekilde tarama yapmamızı sağlar)
+
+subjack -w subdomainlist.txt -v -ssl -o result.txt ( ilk belirttiğimiz kullanım örneği ile aynı işleve sahip ek olarak sadece sonuçları bir txt'ye kaydediyor.)
+
+Kolay gelsin.
