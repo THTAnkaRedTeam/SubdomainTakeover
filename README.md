@@ -52,27 +52,49 @@ $ go version// go version go1.10.3 gccgo (Ubuntu 8.3.0-6ubuntu1~18.04.1) 8.3.0 l
 Şimdi, aşağıdaki komutu kullanarak yapılandırılmış tüm ortam değişkenlerini de doğrulayın:
 
 go envGOARCH=”amd64"
+
 GOBIN=””
+
 GOCACHE=”/home/kali/.cache/go-build”
+
 GOEXE=””
+
 GOHOSTARCH=”amd64"
+
 GOHOSTOS=”linux”
+
 GOOS=”linux”
+
 GOPATH=”/home/kali/go”
+
 GORACE=””
+
 GOROOT=”/usr”
+
 GOTMPDIR=””
+
 GOTOOLDIR=”/usr/lib/gcc/x86_64-linux-gnu/8"
+
 GCCGO=”/usr/bin/x86_64-linux-gnu-gccgo-8"
+
 CC=”x86_64-linux-gnu-gcc-8"
+
 CXX=”x86_64-linux-gnu-g++-8"
+
 CGO_ENABLED=”1"
+
 CGO_CFLAGS=”-g -O2"
+
 CGO_CPPFLAGS=””
+
 CGO_CXXFLAGS=”-g -O2"
+
 CGO_FFLAGS=”-g -O2"
+
 CGO_LDFLAGS=”-g -O2"
+
 PKG_CONFIG=”pkg-config”
+
 GOGCCFLAGS=”-fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build059483897=/tmp/go-build -gno-record-gcc-switches -funwind-tables”
 
 Go 1.10.3’ü başarıyla yükledik.
