@@ -1,7 +1,7 @@
 # SubdomainTakeover
-Subdomain Takeover için gerekli araçkların kurulumu ve kullanımı.
++ Subdomain Takeover için gerekli araçkların kurulumu ve kullanımı.
 
-Go Kurulum (Kali Linux)
++ Go Kurulum (Kali Linux)
 
 Ubuntu’da en son güvenlik güncellemelerini uygulamak için yükseltme kodu;
 
@@ -22,7 +22,7 @@ sudo tar -xvf go1.11.linux-amd64.tar.gz
 sudo mv go /usr/local
 
 
-Go Ortamını Ayarlama
++ Go Ortamını Ayarlama
 
 Şimdi, Go dil ortamı değişkenlerini ayarlayalım. GOROOT , GOPATH ve PATH.
 
@@ -36,14 +36,14 @@ export GOPATH=/home/kamilkaplan/go
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 
 
-Mevcut kabuk Oturumunu Güncelle
++ Mevcut kabuk Oturumunu Güncelle
 
 $ source ~/.profile
 
 Bu, terminalinizi yeniden başlatmadan go komutlarını kullanmanıza izin verecektir.
 
 
-Kurulumu Doğrulama
++ Kurulumu Doğrulama
 
 Go dilini sisteminize başarıyla yüklediniz ve yapılandırdınız. Go versiyonunu kontrol etmek için:
 
@@ -146,7 +146,7 @@ subzy --targets subdomainlist.txt --hide_fails (belirttiğimiz listedeki subdoma
 
 + SUBJACK
 
-+ Belirttiğimiz subdomain listesinde tarama yapar zafiyetli subdomainleri bildirir.
+Belirttiğimiz subdomain listesinde tarama yapar zafiyetli subdomainleri bildirir.
 
 Github reposu
 
